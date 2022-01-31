@@ -1,6 +1,7 @@
 *{
     margin:0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 
@@ -9,7 +10,6 @@
 .container{
     width:80%;
     margin:auto;
-    border:1px dashed red;
     
 }
 
@@ -21,14 +21,12 @@
 
 .articolo{
     width:calc(100% / 3 - 20px);
-    border:1px dashed green;
     margin:10px;
     float:left;
 }
 
 .foto{
     height:80%;
-    border:1px dashed yellow;
     position:relative;
 }
 .foto img{
@@ -38,11 +36,17 @@
 }
 .preferiti{
     position:absolute;
-    padding:10px;
+    padding:5px;
     right:0px;
     top:5%;
     background-color: white;
+    font-size:20px;
 }
+
+.foto:hover .preferiti{
+    color:red;
+}
+
 .label{
     position:absolute;
     bottom:10px;
@@ -59,4 +63,19 @@
 .sostenibilità{
     padding:5px;
     background-color: green;
+}
+
+.descrizione{
+    margin-top:5px;
+}
+
+.new{
+    color:red;
+    font-weight: bold;
+    margin-right:5px;
+}
+
+.old{
+    color:black;
+    text-decoration: line-through;
 }

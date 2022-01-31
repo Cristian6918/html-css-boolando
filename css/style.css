@@ -24,6 +24,7 @@
 .foto{
     height:80%;
     position:relative;
+    display:inline-block;
 }
 .foto img{
     width:100%;
@@ -35,6 +36,8 @@
     top:5%;
     background-color: white;
     font-size:20px;
+    z-index:100;
+    
 }
 
 .foto:hover .preferiti{
@@ -49,6 +52,7 @@
     padding:5px;
     padding-left:0;
     font-size: small;
+    z-index:100;
 }
 .sconto{
     padding:5px;
@@ -73,3 +77,16 @@
     color:black;
     text-decoration: line-through;
 }
+
+.foto .under{
+    display: none;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:99;
+}
+
+.foto:hover .under{
+    display:inline;
+}
+

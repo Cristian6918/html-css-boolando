@@ -4,33 +4,59 @@
 }
 
 
+
+
+.container{
+    width:80%;
+    margin:auto;
+    border:1px dashed red;
+    
+}
+
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
 
-.container{
-    width:70%;
-    margin:auto;
-    border:1px dashed red;
-    
-}
-
 .articolo{
     width:calc(100% / 3 - 20px);
     border:1px dashed green;
     margin:10px;
     float:left;
-    
 }
 
 .foto{
     height:80%;
     border:1px dashed yellow;
+    position:relative;
 }
 .foto img{
     width:100%;
     
    
+}
+.preferiti{
+    position:absolute;
+    padding:10px;
+    right:0px;
+    top:5%;
+    background-color: white;
+}
+.label{
+    position:absolute;
+    bottom:10px;
+    color:white;
+    margin-right:5px;
+    padding:5px;
+    padding-left:0;
+    font-size: small;
+}
+.sconto{
+    padding:5px;
+    background-color:red;
+}
+.sostenibilità{
+    padding:5px;
+    background-color: green;
 }

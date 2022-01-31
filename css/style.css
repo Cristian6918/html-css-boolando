@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+.debug{
+    width
+}
+
+.container{
+    width:70%;
+    margin:auto;
+    border:1px dashed red;
+    
+}
+
+.articolo{
+    width:calc(100% / 3 - 20px);
+    
+    border:1px dashed green;
+    margin:10px;
+}
+
+.foto{
+    height:80%;
+    border:1px dashed yellow;
+}
+.foto img{
+    width:100%;
+    
+   
+}

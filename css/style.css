@@ -4,13 +4,9 @@
     font-family: sans-serif;
 }
 
-
-
-
 .container{
     width:80%;
     margin:auto;
-    
 }
 
 .clearfix::after {
@@ -31,8 +27,6 @@
 }
 .foto img{
     width:100%;
-    
-   
 }
 .preferiti{
     position:absolute;
